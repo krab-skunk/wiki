@@ -1,6 +1,5 @@
+```bash
 apt-get install -y dkms libelf-dev linux-headers-$(uname -r) build-essential
-
-
 
 cp -R /media/cdrom0 /tmp
 Cd /tmp/cdrom0
@@ -67,6 +66,7 @@ Or edit the oven file to remove the 3rd arg (vpn_gateway)
 Unzip chromedriver-linux64.zip
 apt install libglib2.0-dev:amd64 libnss3:amd64 libxcb1:amd64
 ./chromedriver 
+```
 
 ——
 
