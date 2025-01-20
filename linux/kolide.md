@@ -69,5 +69,9 @@ apt install libglib2.0-dev:amd64 libnss3:amd64 libxcb1:amd64
 ```
 
 ——
-
+## If rosetta stop working 
+```bash
+sudo apt update
+sudo apt install binfmt-support qemu-user-static
+```
 
